@@ -645,7 +645,7 @@
 
 \newcommand{\theuniversity@ru}{{\small\bfseries Министерство науки и высшего образования Российской Федерации\par
 \MakeUppercase{\scriptsize федеральное государственное автономное образовательное учреждение высшего образования}\par
-\begin{singlespace}\MakeUppercase{<<Национальный исследовательский университет ИТМО}\end{singlespace}}}
+\begin{singlespace}\MakeUppercase{<<Национальный исследовательский университет ИТМО>>}\end{singlespace}}}
 
 \newcommand{\theuniversity@en}{{\small\bfseries Ministry of Science and Higher Education\par
 \MakeUppercase{\scriptsize federal state autonomous educational institution of higher education}\par
