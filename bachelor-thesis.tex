@@ -568,8 +568,9 @@
 		\EndIf
 		\EndFor
 		\EndFor
-		\For{$cluster in vertex\_clusters$}
-		\State{$vertexes.add(Vertex(transactions[cluster], vertex\_msgs[cluster], cluster \in end\_vertexes, cluster \in digressions))$}
+		\For{$cluster \in vertex\_clusters$}
+		\State{$vertexes.add(Vertex(transactions[cluster], vertex\_msgs[cluster], $}
+		\State{$	cluster \in end\_vertexes, cluster \in digressions))$}
 		\EndFor
 		\State \Return{$vertexes$}
 		\EndFunction
@@ -816,6 +817,7 @@
 	\inputminted[
 	frame=lines,
 	framesep=2mm,
+	breaklines,
 	baselinestretch=1.2,
 	fontsize=\footnotesize,
 	linenos
@@ -824,6 +826,7 @@
 	\inputminted[
 	frame=lines,
 	framesep=2mm,
+	breaklines,
 	baselinestretch=1.2,
 	fontsize=\footnotesize,
 	linenos
@@ -840,6 +843,7 @@
 	\inputminted[
 	frame=lines,
 	framesep=2mm,
+	breaklines,
 	baselinestretch=1.2,
 	fontsize=\footnotesize,
 	linenos
@@ -848,6 +852,7 @@
 	\inputminted[
 	frame=lines,
 	framesep=2mm,
+	breaklines,
 	baselinestretch=1.2,
 	fontsize=\footnotesize,
 	linenos
@@ -856,6 +861,7 @@
 	\inputminted[
 	frame=lines,
 	framesep=2mm,
+	breaklines,
 	baselinestretch=1.2,
 	fontsize=\footnotesize,
 	linenos
@@ -864,6 +870,7 @@
 	\inputminted[
 	frame=lines,
 	framesep=2mm,
+	breaklines,
 	baselinestretch=1.2,
 	fontsize=\footnotesize,
 	linenos
@@ -872,6 +879,7 @@
 	\inputminted[
 	frame=lines,
 	framesep=2mm,
+	breaklines,
 	baselinestretch=1.2,
 	fontsize=\footnotesize,
 	linenos
@@ -880,6 +888,7 @@
 	\inputminted[
 	frame=lines,
 	framesep=2mm,
+	breaklines,
 	baselinestretch=1.2,
 	fontsize=\footnotesize,
 	linenos
@@ -888,6 +897,7 @@
 	\inputminted[
 	frame=lines,
 	framesep=2mm,
+	breaklines,
 	baselinestretch=1.2,
 	fontsize=\footnotesize,
 	linenos
@@ -896,6 +906,7 @@
 	\inputminted[
 	frame=lines,
 	framesep=2mm,
+	breaklines,
 	baselinestretch=1.2,
 	fontsize=\footnotesize,
 	linenos
